@@ -113,6 +113,10 @@ ol {
   text-transform: capitalize;
 }
 
+.team-list {
+  background-color: #FFFFFF;
+}
+
 .team-person {
   color: #2e2f42;
   font-size: 20px;
