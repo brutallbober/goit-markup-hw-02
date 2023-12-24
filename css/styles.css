@@ -19,6 +19,7 @@ ol {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .logo-part {
   color: #2e2f42;
@@ -58,11 +59,13 @@ ol {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .title-button {
   background-color: #4d5ae5;
   color: #fff;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -70,6 +73,10 @@ ol {
 
 .title-button:hover {
   background-color: #404bbf;
+}
+.title-button:focus {
+  background-color: #404bbf;
+  cursor: pointer;
 }
 
 .possibilities-title {
@@ -83,6 +90,7 @@ ol {
 .possibilities {
   color: #2e2f42;
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
@@ -96,10 +104,13 @@ ol {
 
 .team {
   color: #2e2f42;
+  background-color: #f4f4fd;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .team-person {
@@ -122,8 +133,10 @@ ol {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .content-top {
@@ -151,6 +164,7 @@ footer {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .logo-part-down {
@@ -160,6 +174,7 @@ footer {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .nayword {
