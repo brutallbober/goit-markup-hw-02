@@ -102,9 +102,11 @@ ol {
   letter-spacing: 0.02em;
 }
 
+.band-background {
+  background-color: #F4F4FD;
+}
 .band {
   color: #2e2f42;
-  background-color: #F4F4FD;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -158,7 +160,7 @@ ol {
   letter-spacing: 0.02em;
 }
 
-footer {
+.background {
   background-color: #2e2f42;
 }
 .logo-footer {
